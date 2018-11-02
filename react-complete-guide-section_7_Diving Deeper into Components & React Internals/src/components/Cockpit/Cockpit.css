@@ -1,0 +1,51 @@
+.--red {
+    color: red;
+  }
+  
+  .--bold {
+    font-weight: bold;
+  }
+  
+  .Button {
+    background-color: #666666;
+    font: inherit;
+    border: 1px solid #303030;
+    padding: 12px;
+    cursor: pointer;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    width: 160px;
+  }
+  
+  .Button:hover {
+    background-color: darkgray;
+    color: black;
+  }
+  
+  .Button.--red {
+    background-color: lightgray;  
+  }
+  
+  .Button.--red:hover {
+    background-color: white;  
+    color: black;
+  }
+
+  .LogButton {
+    background-color: #666666;
+    font: inherit;
+    border: 1px solid #303030;
+    padding: 12px;
+    cursor: pointer;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    width: 160px;
+    margin-top: 16px;
+  }
+
+  .LogButton:hover {
+    background-color: darkgray;
+    color: black;
+  }
